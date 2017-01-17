@@ -1,56 +1,52 @@
 require "spec_helper"
 
-describe Orghunter::Geolocation do
-  Orghunter.configure do |config|
-    config.api_key = ENV['ORGHUNTER_API_KEY']
-  end
+  describe Orghunter::Geolocation do
+    args = {
+      "ein" => "930748388",
+      "name" => "COMMUNITY CANCER FOUNDATION COMMUNITY CANCER CENTER",
+      "inCareOfName" => "",
+      "street" => "2880 NW STEWART PKWY STE 100",
+      "city" => "ROSEBURG",
+      "state" => "OR",
+      "zipCode" => "97471-1203",
+      "country" => "USA",
+      "groupExemption" => nil,
+      "subsection" => "501(c)(3)",
+      "classification" => "Scientific Organization",
+      "affiliation" => "Independent - This code is used if the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
+      "rullingDate" => "December, 1979",
+      "deductibility" => "Contributions are deductible.",
+      "deductibilityStatus" => "PC",
+      "foundation" => "Hospital or medical research organization 170(b)(1)(A)(iii)",
+      "activity1" => "Health clinic",
+      "activity2" => "Other health services",
+      "activity3" => nil,
+      "organization" => "Corporation",
+      "exemptStatus" => "Unconditional Exemption",
+      "taxPeriod" => "June, 2016",
+      "assetCodeDesc" => "10,000,000 to 49,999,999",
+      "incomeCodeDesc" => "5,000,000 to 9,999,999",
+      "filingRequirementCodeDesc " => "(all other) or 990EZ return",
+      "pfFilingRequirementCodeDesc" => "No PF return",
+      "accountingPeriod" => "June",
+      "assetAmount" => "16204110.00",
+      "incomeAmount" => "5153522.00",
+      "form990" => "5145021.00",
+      "nteeCd" => "G30",
+      "nteeClass" => "Cancer",
+      "nteeType" => "Diseases, Disorders, Medical Disciplines",
+      "sortName" => "",
+      "revocationDt" => nil,
+      "revPostingDt" => nil,
+      "irsRevocationStatus" => nil,
+      "acceptingDonations" => "1",
+      "latitude" => "43.240814",
+      "longitude" => "-123.363449"}
 
-  args = {
-    "ein" => "930748388",
-    "name" => "COMMUNITY CANCER FOUNDATION COMMUNITY CANCER CENTER",
-    "inCareOfName" => "",
-    "street" => "2880 NW STEWART PKWY STE 100",
-    "city" => "ROSEBURG",
-    "state" => "OR",
-    "zipCode" => "97471-1203",
-    "country" => "USA",
-    "groupExemption" => nil,
-    "subsection" => "501(c)(3)",
-    "classification" => "Scientific Organization",
-    "affiliation" => "Independent - This code is used if the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
-    "rullingDate" => "December, 1979",
-    "deductibility" => "Contributions are deductible.",
-    "deductibilityStatus" => "PC",
-    "foundation" => "Hospital or medical research organization 170(b)(1)(A)(iii)",
-    "activity1" => "Health clinic",
-    "activity2" => "Other health services",
-    "activity3" => nil,
-    "organization" => "Corporation",
-    "exemptStatus" => "Unconditional Exemption",
-    "taxPeriod" => "June, 2016",
-    "assetCodeDesc" => "10,000,000 to 49,999,999",
-    "incomeCodeDesc" => "5,000,000 to 9,999,999",
-    "filingRequirementCodeDesc " => "(all other) or 990EZ return",
-    "pfFilingRequirementCodeDesc" => "No PF return",
-    "accountingPeriod" => "June",
-    "assetAmount" => "16204110.00",
-    "incomeAmount" => "5153522.00",
-    "form990" => "5145021.00",
-    "nteeCd" => "G30",
-    "nteeClass" => "Cancer",
-    "nteeType" => "Diseases, Disorders, Medical Disciplines",
-    "sortName" => "",
-    "revocationDt" => nil,
-    "revPostingDt" => nil,
-    "irsRevocationStatus" => nil,
-    "acceptingDonations" => "1",
-    "latitude" => "43.240814",
-    "longitude" => "-123.363449"}
-
-    let(:geolocation){OrgHunter.Geolocation.new(args)}
+    let(:geolocation){Orghunter::Geolocation.new(args)}
 
     it 'should exist' do
-      expect(geolocation).to be_kind_of(OrgHunter::Geolocation)
+      expect(geolocation).to be_kind_of(Orghunter::Geolocation)
     end
 
     it 'has readable ein' do
@@ -62,7 +58,7 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable inCareOfName' do
-      expect(geolocation.inCareOfName).to eq('')
+      expect(geolocation.in_care_of).to eq('')
     end
 
     it 'has readable street' do
@@ -78,7 +74,7 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable zipCode' do
-      expect(geolocation.zipCode).to eq('97471-1203')
+      expect(geolocation.zip_code).to eq('97471-1203')
     end
 
     it 'has readable country' do
@@ -86,7 +82,7 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable groupExemption' do
-      expect(geolocation.groupExemption).to be_nil
+      expect(geolocation.group_exemption).to be_nil
     end
 
     it 'has readable subsection' do
@@ -102,7 +98,7 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable rullingDate' do
-      expect(geolocation.rullingDate).to eq('December, 1979')
+      expect(geolocation.ruling_date).to eq('December, 1979')
     end
 
     it 'has readable deductibility' do
@@ -110,7 +106,7 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable deductibilityStatus' do
-      expect(geolocation.deductibilityStatus).to eq('PC')
+      expect(geolocation.deductibility_status).to eq('PC')
     end
 
     it 'has readable foundation' do
@@ -134,39 +130,39 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable exemptStatus' do
-      expect(geolocation.exemptStatus).to eq('Unconditional Exemption')
+      expect(geolocation.exempt_status).to eq('Unconditional Exemption')
     end
 
     it 'has readable taxPeriod' do
-      expect(geolocation.taxPeriod).to eq('June, 2016')
+      expect(geolocation.tax_period).to eq('June, 2016')
     end
 
     it 'has readable assetCodeDesc' do
-      expect(geolocation.assetCodeDesc).to eq('10,000,000 to 49,999,999')
+      expect(geolocation.asset_code_desc).to eq('10,000,000 to 49,999,999')
     end
 
     it 'has readable incomeCodeDesc' do
-      expect(geolocation.incomeCodeDesc).to eq('5,000,000 to 9,999,999')
+      expect(geolocation.income_code_desc).to eq('5,000,000 to 9,999,999')
     end
 
     it 'has readable filingRequirementCodeDesc' do
-      expect(geolocation.filingRequirementCodeDesc).to eq('(all other) or 990EZ return')
+      expect(geolocation.filing_requirement_code_desc).to eq('(all other) or 990EZ return')
     end
 
     it 'has readable pfFilingRequirementCodeDesc' do
-      expect(geolocation.pfFilingRequirementCodeDesc).to eq('No PF return')
+      expect(geolocation.pf_filing_requirement_code_desc).to eq('No PF return')
     end
 
     it 'has readable accountingPeriod' do
-      expect(geolocation.accountingPeriod).to eq('June')
+      expect(geolocation.accounting_period).to eq('June')
     end
 
     it 'has readable assetAmount' do
-      expect(geolocation.assetAmount).to eq('16204110.00')
+      expect(geolocation.asset_amount).to eq('16204110.00')
     end
 
     it 'has readable incomeAmount' do
-      expect(geolocation.incomeAmount).to eq('5153522.00')
+      expect(geolocation.income_amount).to eq('5153522.00')
     end
 
     it 'has readable form990' do
@@ -174,35 +170,35 @@ describe Orghunter::Geolocation do
     end
 
     it 'has readable nteeCd' do
-      expect(geolocation.nteeCd).to eq('G30')
+      expect(geolocation.ntee_cd).to eq('G30')
     end
 
     it 'has readable nteeClass' do
-      expect(geolocation.nteeClass).to eq('Cancer')
+      expect(geolocation.ntee_class).to eq('Cancer')
     end
 
     it 'has readable nteeType' do
-      expect(geolocation.nteeType).to eq('Diseases, Disorders, Medical Disciplines')
+      expect(geolocation.ntee_type).to eq('Diseases, Disorders, Medical Disciplines')
     end
 
     it 'has readable sortName' do
-      expect(geolocation.sortName).to eq('')
+      expect(geolocation.sort_name).to eq('')
     end
 
     it 'has readable revocationDt' do
-      expect(geolocation.revocationDt).to be_nil
+      expect(geolocation.revocation_dt).to be_nil
     end
 
     it 'has readable revPostingDt' do
-      expect(geolocation.revPostingDt).to be_nil
+      expect(geolocation.rev_posting_dt).to be_nil
     end
 
     it 'has readable irsRevocationStatus' do
-      expect(geolocation.irsRevocationStatus).to be_nil
+      expect(geolocation.irs_revocation_status).to be_nil
     end
 
     it 'has readable acceptingDonations' do
-      expect(geolocation.acceptingDonations).to eq('1')
+      expect(geolocation.accepting_donations).to eq('1')
     end
 
     it 'has readable latitude' do
