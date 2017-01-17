@@ -5,7 +5,6 @@ require 'orghunter/search'
 require 'orghunter/category'
 require 'orghunter/geolocation'
 
-
 module Orghunter
   class << self
     attr_accessor :configuration
