@@ -1,18 +1,17 @@
 module Orghunter
   class Geolocation
-    attr_reader :ein, :name, :inCareOfName, :street, :city, :state, :zipCode, :country, :groupExemption, :subsection, :classification, :affiliation, :rullingDate, :deductibility, :deductibilityStatus, :foundation, :activity1, :activity2, :activity3, :organization, :exemptStatus, :taxPeriod, :assetCodeDesc, :incomeCodeDesc, :filingRequirementCodeDesc, :pfFilingRequirementCodeDesc, :accountingPeriod, :assetAmount, :incomeAmount, :form990, :nteeCd, :nteeClass, :nteeType, :sortName, :revocationDt, :revPostingDt, :irsRevocationStatus, :acceptingDonations, :latitude, :longitude
+    attr_reader :ein, :name, :in_care_of, :street, :city, :state, :zip_code, :country, :group_exemption, :subsection, :classification, :affiliation, :ruling_date, :deductibility, :deductibility_status, :foundation, :activity1, :activity2, :activity3, :organization, :exempt_status, :tax_period, :asset_code_desc, :income_code_desc, :filing_requirement_code_desc, :pf_filing_requirement_code_desc, :accounting_period, :asset_amount, :income_amount, :form990, :ntee_cd, :ntee_class, :ntee_type, :sort_name, :revocation_dt, :rev_posting_dt, :irs_revocation_status, :accepting_donations, :latitude, :longitude
 
     def initialize(args)
       @ein = args["ein"]
       @name = args["name"]
-      @category = args["category"]
       @in_care_of = args["inCareOfName"]
       @street = args['street']
       @city = args["city"]
       @state = args["state"]
       @zip_code = args["zipCode"]
       @country = args['country']
-      @groupExemption = args['groupExemption']
+      @group_exemption = args['groupExemption']
       @subsection = args['subsection']
       @classification = args['classification']
       @affiliation = args['affiliation']
@@ -37,10 +36,10 @@ module Orghunter
       @ntee_cd = args['nteeCd']
       @ntee_class = args["nteeClass"]
       @ntee_type = args["nteeType"]
-      @sortName = args["sortName"]
-      @revocationDt = args["revocationDt"]
-      @revPostingDt = args["revPostingDt"]
-      @irsRevocationStatus = args["irsRevocationStatus"]
+      @sort_name = args["sortName"]
+      @revocation_dt = args["revocationDt"]
+      @rev_posting_dt = args["revPostingDt"]
+      @irs_revocation_status = args["irsRevocationStatus"]
       @accepting_donations = args["acceptingDonations"]
       @latitude = args["latitude"]
       @longitude = args["longitude"]
