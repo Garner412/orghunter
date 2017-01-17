@@ -1,7 +1,11 @@
 require "spec_helper"
 
 describe Orghunter::Geolocation do
-  let(:geolocation){Orghunter.new( {
+  Orghunter.configure do |config|
+    config.api_key = ENV['ORGHUNTER_API_KEY']
+  end
+
+  args = {
     "ein" => "930748388",
     "name" => "COMMUNITY CANCER FOUNDATION COMMUNITY CANCER CENTER",
     "inCareOfName" => "",
@@ -10,7 +14,7 @@ describe Orghunter::Geolocation do
     "state" => "OR",
     "zipCode" => "97471-1203",
     "country" => "USA",
-    "groupExemption" => null,
+    "groupExemption" => nil,
     "subsection" => "501(c)(3)",
     "classification" => "Scientific Organization",
     "affiliation" => "Independent - This code is used if the organization is an independent organization or an independent auxiliary (i.e., not affiliated with a National, Regional, or Geographic grouping of organizations).",
@@ -20,7 +24,7 @@ describe Orghunter::Geolocation do
     "foundation" => "Hospital or medical research organization 170(b)(1)(A)(iii)",
     "activity1" => "Health clinic",
     "activity2" => "Other health services",
-    "activity3" => null,
+    "activity3" => nil,
     "organization" => "Corporation",
     "exemptStatus" => "Unconditional Exemption",
     "taxPeriod" => "June, 2016",
@@ -36,12 +40,14 @@ describe Orghunter::Geolocation do
     "nteeClass" => "Cancer",
     "nteeType" => "Diseases, Disorders, Medical Disciplines",
     "sortName" => "",
-    "revocationDt" => null,
-    "revPostingDt" => null,
-    "irsRevocationStatus" => null,
+    "revocationDt" => nil,
+    "revPostingDt" => nil,
+    "irsRevocationStatus" => nil,
     "acceptingDonations" => "1",
     "latitude" => "43.240814",
-    "longitude" => "-123.363449"})}
+    "longitude" => "-123.363449"}
+
+    let(:geolocation){OrgHunter.Geolocation.new(args)}
 
     it 'should exist' do
       expect(geolocation).to be_kind_of(OrgHunter::Geolocation)
