@@ -3,6 +3,7 @@ require 'orghunter/configuration'
 require 'orghunter/charity'
 require 'orghunter/search'
 require 'orghunter/category'
+require 'orghunter/geolocation'
 
 
 module Orghunter
