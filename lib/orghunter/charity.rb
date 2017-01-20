@@ -1,55 +1,65 @@
 module Orghunter
   class Charity
-    attr_reader :name, :category, :org_hunter_URL, :donation_URL, :city, :state, :zip_code, :status, :search_score, :website, :mission, :ein, :in_care_of, :street, :country, :subsection, :classification, :affiliation, :ruling_date, :deductibility, :deductibility_status, :foundation, :organization, :exempt_status, :tax_period, :asset_code_desc, :income_code_desc, :filing_requirement_code_desc, :pf_filing_requirement_code_desc, :accounting_period, :asset_amount, :income_amount, :form990, :ntee_type, :ntee_cd, :ntee_class
+    attr_reader :accepting_donations, :accounting_period, :activity1, :activity2, :activity3, :affiliation, :asset_amount, :asset_code_desc, :category, :city, :classification, :country, :deductibility, :deductibility_status, :donation_URL, :ein, :eligible_cd, :exempt_status, :filing_requirement_code_desc, :form990, :foundation, :group_exemption, :in_care_of, :income_amount, :income_code_desc, :irs_revocation_status, :latitude, :longitude, :mission, :name, :ntee_cd, :ntee_class, :ntee_type, :org_hunter_URL, :organization, :pf_filing_requirement_code_desc, :rev_posting_dt, :revocation_dt, :ruling_date, :search_score, :sort_name, :state, :status, :street, :subsection, :tax_period, :website, :zip_code
 
     def initialize(args)
-      @name = args["charityName"] || args["name"]
-      @category = args["category"]
-      @org_hunter_URL = args["url"]
-      @donation_URL = args["donationUrl"]
-      @eligible_cd = args["eligibleCd"]
-      @city = args["city"]
-      @state = args["state"]
-      @zip_code = args["zipCode"]
-      @deductability = args["deductibilityCd"]
-      @status = args["statusCd"]
-      @search_score = args["score"]
-      @website = args["website"]
-      @mission = args["missionStatement"]
       @accepting_donations = args["acceptingDonations"]
-      @ein = args["ein"]
-
-      @in_care_of = args["inCareOfName"]
-      @street = args['street']
-      @country = args['country']
-      @subsection = args['subsection']
-      @classification = args['classification']
+      @accounting_period = args["accountingPeriod"]
+      @activity1 = args['activity1']
+      @activity2 = args['activity2']
+      @activity3 = args['activity3']
       @affiliation = args['affiliation']
-      # Ruling is spelled wrong!
-      @ruling_date = args['rullingDate']
+      @asset_amount = args["assetAmount"]
+      @asset_code_desc = args['assetCodeDesc']
+      @category = args["category"]
+      @city = args["city"]
+      @classification = args['classification']
+      @country = args['country']
+      #deductability_cd
+      @deductability_cd = args["deductibilityCd"]
       @deductibility = args['deductibility']
       @deductibility_status = args['deductibilityStatus']
-      @foundation = args['foundation']
-      @organization = args['organization']
+      @donation_URL = args["donationUrl"]
+      @ein = args["ein"]
+      @eligible_cd = args["eligibleCd"]
       @exempt_status = args['exemptStatus']
-      @tax_period = args['taxPeriod']
-      @asset_code_desc = args['assetCodeDesc']
-      @income_code_desc = args['incomeCodeDesc']
       # there is a space at the end of this data descriptor!!!
       @filing_requirement_code_desc = args['filingRequirementCodeDesc ']
-
-      @pf_filing_requirement_code_desc = args["pfFilingRequirementCodeDesc"]
-      @accounting_period = args["accountingPeriod"]
-      @asset_amount = args["assetAmount"]
-      @income_amount = args["incomeAmount"]
       @form990 = args["form990"]
+      @foundation = args['foundation']
+      @group_exemption = args['groupExemption']
+      @in_care_of = args["inCareOfName"]
+      @income_amount = args["incomeAmount"]
+      @income_code_desc = args['incomeCodeDesc']
+      @irs_revocation_status = args["irsRevocationStatus"]
+      @latitude = args["latitude"]
+      @longitude = args["longitude"]
+      @mission = args["missionStatement"]
+      @name = args["charityName"] || args["name"]
       @ntee_cd = args['nteeCd']
       @ntee_class = args["nteeClass"]
       @ntee_type = args["nteeType"]
+      @org_hunter_URL = args["url"]
+      @organization = args['organization']
+      # Ruling is spelled wrong!
+      @pf_filing_requirement_code_desc = args["pfFilingRequirementCodeDesc"]
+      @rev_posting_dt = args["revPostingDt"]
+      @revocation_dt = args["revocationDt"]
+      @ruling_date = args['rullingDate']
+      @search_score = args["score"]
+      @sort_name = args["sortName"]
+      @state = args["state"]
+      @status = args["statusCd"]
+      @street = args['street']
+      @subsection = args['subsection']
+      @tax_period = args['taxPeriod']
+      @website = args["website"]
+      @zip_code = args["zipCode"]
+
     end
 
     def deductable?
-      @deductability == 1
+      @deductability_cd == 1
     end
 
     def eligible?
