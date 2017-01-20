@@ -85,4 +85,86 @@ http_interactions:
         York","zipCode":"11768-0007","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":85,"score":1.8007681,"website":"","missionStatement":"","acceptingDonations":1}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 20:28:51 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?rows=22&searchTerm=cows&start=1&user_key=60b5c413389afd528034f03af0857824
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:43 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6InZGNkFiUHF0UkxiVGVRV2NvMm4zbVVEdnhTOHJjMmZzWkwrMDRySUxHcE09IiwidmFsdWUiOiJTNGRmRGhIdmdjM3FqR3VTRCtGZUt1dW5tT0FqQ3FqekZ3bTBTOWltN05XelJtYzFhbUNjZG9Uc1pCMFNuM3hZR3BlYXFIV1RGbkNqdTNMeGQ0dnVCUT09IiwibWFjIjoiODBkODBhNzIzMDQyYWFhMmIxOTliNTY5MDM3NTNkN2U2OGM2YzljMTgxZjBmMzdkMWI1ZmU1MjYyNmFiOTA2ZiJ9;
+        expires=Fri, 20-Jan-2017 18:22:43 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"10388822","charityName":"NO
+        SACRED COWS","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/10388822","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/10388822","eligibleCd":0,"city":"PORTLAND","state":"Maine","zipCode":"04112-7582","deductibilityCd":0,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":13.825372,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"261688229","charityName":"KIDS
+        COWS AND MORE INC","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/261688229","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/261688229","eligibleCd":1,"city":"HOUSTON","state":"Texas","zipCode":"77018-8305","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":13.825372,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"463904039","charityName":"KRISHNA
+        PROTECTS COWS INC","category":"Religion-Related, Spiritual Development","url":"http:\/\/www.orghunter.com\/organization\/463904039","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/463904039","eligibleCd":1,"city":"PORT
+        ROYAL","state":"Pennsylvania","zipCode":"17082-7263","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":13.825372,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"474647563","charityName":"COWS
+        FOUNDATION","category":"Animal-Related","url":"http:\/\/www.orghunter.com\/organization\/474647563","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/474647563","eligibleCd":1,"city":"ROMNEY","state":"West
+        Virginia","zipCode":"26757-0366","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":13.825372,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"942574184","charityName":"COW
+        HOLLOW ASSOCIATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/942574184","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/942574184","eligibleCd":1,"city":"SAN
+        FRANCISCO","state":"California","zipCode":"94123-3206","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"454631711","charityName":"COW
+        HARBOR WARRIORS INC","category":"Human Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/454631711","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/454631711","eligibleCd":1,"city":"NORTHPORT","state":"New
+        York","zipCode":"11768-0204","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"460495099","charityName":"PURPLE
+        COW DAYCARE AND LEARNING CENTER INC","category":"Human Services - Multipurpose
+        and Other","url":"http:\/\/www.orghunter.com\/organization\/460495099","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/460495099","eligibleCd":1,"city":"IOTA","state":"Louisiana","zipCode":"70543-0705","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"943373115","charityName":"COW
+        HOLLOW PRESCHOOL","category":"Educational Institutions and Related Activities","url":"http:\/\/www.orghunter.com\/organization\/943373115","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/943373115","eligibleCd":1,"city":"SAN
+        FRANCISCO","state":"California","zipCode":"94129-1110","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"61660699","charityName":"LAKSHMI
+        COW SANCTUARY INC","category":"Animal-Related","url":"http:\/\/www.orghunter.com\/organization\/61660699","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/61660699","eligibleCd":1,"city":"STROUDSBURG","state":"Pennsylvania","zipCode":"18360-0000","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"886004338","charityName":"NEVADA
+        STATE COW BELLES","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/886004338","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/886004338","eligibleCd":0,"city":"ELKO","state":"Nevada","zipCode":"89801-3407","deductibilityCd":0,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"300470660","charityName":"THE
+        MICHIGAN SOCIETY FOR COW PROTECTION","category":"Food, Agriculture and Nutrition","url":"http:\/\/www.orghunter.com\/organization\/300470660","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/300470660","eligibleCd":1,"city":"LANSING","state":"Michigan","zipCode":"48912-4024","deductibilityCd":1,"statusCd":5,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"112428537","charityName":"NORTHPORT
+        COW HARBOR UNITED SOCCER CLUB","category":"Recreation, Sports, Leisure, Athletics","url":"http:\/\/www.orghunter.com\/organization\/112428537","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/112428537","eligibleCd":1,"city":"NORTHPORT","state":"New
+        York","zipCode":"11768-0007","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"953694767","charityName":"COW
+        CAMP CARIDADES","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/953694767","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/953694767","eligibleCd":1,"city":"SAN
+        JUAN CAPO","state":"California","zipCode":"92693-0009","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237069983","charityName":"PLATRIX
+        CHAPTER QUEEN OF THE COW COUNTIES NO 2 E CLAMPUS VITRUS INC","category":"Not
+        Provided","url":"http:\/\/www.orghunter.com\/organization\/237069983","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237069983","eligibleCd":0,"city":"SIERRA
+        MADRE","state":"California","zipCode":"91025-0573","deductibilityCd":2,"statusCd":0,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"330742962","charityName":"PURPLE
+        COW & FRIENDS","category":"Animal-Related","url":"http:\/\/www.orghunter.com\/organization\/330742962","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/330742962","eligibleCd":0,"city":"VALLEY
+        CENTER","state":"California","zipCode":"92082-5161","deductibilityCd":1,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"510355823","charityName":"AMERICAN
+        CHAMBER OF COMMERCE IN MOS COW INC","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/510355823","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/510355823","eligibleCd":0,"city":"BUFFALO","state":"New
+        York","zipCode":"14240-0000","deductibilityCd":2,"statusCd":0,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"680226729","charityName":"NORTH
+        COW CREEK EDUCATION FOUNDATION","category":"Educational Institutions and Related
+        Activities","url":"http:\/\/www.orghunter.com\/organization\/680226729","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/680226729","eligibleCd":1,"city":"PALO
+        CEDRO","state":"California","zipCode":"96073-0872","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"770120992","charityName":"COW
+        IN THE ROAD THE SAN JOSE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/770120992","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/770120992","eligibleCd":0,"city":"SAN
+        JOSE","state":"California","zipCode":"95109-3236","deductibilityCd":0,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"10724022","charityName":"BREAKNECK
+        HILL COW FUND","category":"Recreation, Sports, Leisure, Athletics","url":"http:\/\/www.orghunter.com\/organization\/10724022","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/10724022","eligibleCd":1,"city":"SOUTHBOROUGH","state":"Massachusetts","zipCode":"01772-0343","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"261333263","charityName":"CHANGING
+        OUR WORLD COW PROJECT INC","category":"Human Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/261333263","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/261333263","eligibleCd":1,"city":"TURNERSVILLE","state":"New
+        Jersey","zipCode":"08012-2129","deductibilityCd":1,"statusCd":1,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"311044944","charityName":"COW
+        CREEK COMMUNITY DEVELOPMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/311044944","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/311044944","eligibleCd":0,"city":"PRESTONSBURG","state":"Kentucky","zipCode":"41653-8238","deductibilityCd":0,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"936096374","charityName":"COW
+        CREEK DISTRICT IMPROVEMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/936096374","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/936096374","eligibleCd":0,"city":"GLENDALE","state":"Arizona","zipCode":"85311-0410","deductibilityCd":0,"statusCd":4,"start":1,"rows":22,"recordCount":84,"score":1.8063743,"website":"","missionStatement":"","acceptingDonations":0}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:10 GMT
 recorded_with: VCR 3.0.3

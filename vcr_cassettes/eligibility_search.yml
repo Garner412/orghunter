@@ -77,4 +77,79 @@ http_interactions:
         Carolina","zipCode":"29151-2847","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1338910,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 21:17:42 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?eligible=1&user_key=60b5c413389afd528034f03af0857824
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:45 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6InhISTRmTldNMlV0a2Z3cXlGb2U0cGRoNFdsbGhnRmtudTExcXFaWFR6TGM9IiwidmFsdWUiOiJqbVA3M3RaTk03OXhyU2Q1SkJHU3lrZU1zSDlZM0U4QmZUaW5PXC9UMWgrQk0xR2RsRzZyK0ZXVW41NVc1OURoSjlMRTJMT1c4VkhSYjBWeGFVdDdrWkE9PSIsIm1hYyI6ImEwMTU4MWQxMmMyYzBhOGJhZjNlOWJkMGUyODllY2Q0Y2IyZDc4YTQ2NzkzNGNjZDBiMzY2NWFkMzMxYTRmYTUifQ%3D%3D;
+        expires=Fri, 20-Jan-2017 18:22:45 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"61469247","charityName":"INTERNATIONAL
+        TRAUMA CENTER INC","category":"Educational Institutions and Related Activities","url":"http:\/\/www.orghunter.com\/organization\/61469247","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/61469247","eligibleCd":1,"city":"NEW
+        HAVEN","state":"Connecticut","zipCode":"06511-3764","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237515625","charityName":"FIRST
+        CATHOLIC SLOVAK LADIES ASSOC OF THE USA","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237515625","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237515625","eligibleCd":1,"city":"BEACHWOOD","state":"Ohio","zipCode":"44122-5616","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"581684051","charityName":"J
+        R CLODFELTER TR FOR VARIOUS CHARITIES","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/581684051","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/581684051","eligibleCd":1,"city":"WINSTON
+        SALEM","state":"North Carolina","zipCode":"27101-3818","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"311447726","charityName":"OHIO
+        STATE UNIVERSITY PHYSICIANS INC","category":"Educational Institutions and
+        Related Activities","url":"http:\/\/www.orghunter.com\/organization\/311447726","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/311447726","eligibleCd":1,"city":"COLUMBUS","state":"Ohio","zipCode":"43202-4506","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"721364474","charityName":"CHILD
+        WELFARE POLICY AND PRACTICE GROUP","category":"ublic, Society Benefit - Multipurpose
+        and Other","url":"http:\/\/www.orghunter.com\/organization\/721364474","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/721364474","eligibleCd":1,"city":"MONTGOMERY","state":"Alabama","zipCode":"36104-3648","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237537817","charityName":"ARTISANS
+        ORDER OF MUTUAL PROTECTION MOST EXCELLENT ASSEMBLY","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237537817","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237537817","eligibleCd":1,"city":"PHILADELPHIA","state":"Pennsylvania","zipCode":"19152-2900","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"431295676","charityName":"UNITED
+        FEDERATION OF DOLL CLUBS INC","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/431295676","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/431295676","eligibleCd":1,"city":"KANSAS
+        CITY","state":"Missouri","zipCode":"64153-1256","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"581690109","charityName":"WORLD
+        OUTREACH MISSIONS INC","category":"Religion-Related, Spiritual Development","url":"http:\/\/www.orghunter.com\/organization\/581690109","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/581690109","eligibleCd":1,"city":"LAWRENCEVILLE","state":"Georgia","zipCode":"30043-2800","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"910978022","charityName":"DESTINY
+        CHRISTIAN CENTER","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/910978022","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/910978022","eligibleCd":1,"city":"CHEHALIS","state":"Washington","zipCode":"98532-8724","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"272038378","charityName":"FRIENDS
+        OF THE COLISEUM","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/272038378","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/272038378","eligibleCd":1,"city":"CORPUS
+        CHRISTI","state":"Texas","zipCode":"78463-0000","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"223022321","charityName":"TEWKSBURY
+        FIRST AID AND RESCUE SQUAD","category":"Health - General and Rehabilitative","url":"http:\/\/www.orghunter.com\/organization\/223022321","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/223022321","eligibleCd":1,"city":"CALIFON","state":"New
+        Jersey","zipCode":"07830-3039","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"953844517","charityName":"VALENCIA
+        FOURSQUARE CHURCH","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/953844517","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/953844517","eligibleCd":1,"city":"VALENCIA","state":"California","zipCode":"91355-2946","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"311596976","charityName":"CHILDRENS
+        CULTURAL ARTS FOUNDATION INC","category":"Educational Institutions and Related
+        Activities","url":"http:\/\/www.orghunter.com\/organization\/311596976","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/311596976","eligibleCd":1,"city":"ATLANTIC
+        CITY","state":"New Jersey","zipCode":"08404-1777","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"273604917","charityName":"I
+        LEARN 4 FUN INC","category":"Educational Institutions and Related Activities","url":"http:\/\/www.orghunter.com\/organization\/273604917","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/273604917","eligibleCd":1,"city":"LYNCHBURG","state":"Virginia","zipCode":"24503-2324","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"60646637","charityName":"FIRST
+        CHURCH OF CHRIST IN WETHERSFIELD","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/60646637","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/60646637","eligibleCd":1,"city":"WETHERSFIELD","state":"Connecticut","zipCode":"06109-1826","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"452455450","charityName":"OLD
+        DOG HOUSE","category":"Animal-Related","url":"http:\/\/www.orghunter.com\/organization\/452455450","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/452455450","eligibleCd":1,"city":"FLORISSANT","state":"Colorado","zipCode":"80816-8410","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"260511699","charityName":"IGLESIA
+        BAUTISTA ANASTASIS","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/260511699","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/260511699","eligibleCd":1,"city":"DELTONA","state":"Florida","zipCode":"32738-9323","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"10796859","charityName":"MONTEFIORE
+        NORTH AMBULATORY CARE CENTER INC","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/10796859","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/10796859","eligibleCd":1,"city":"BRONX","state":"New
+        York","zipCode":"10466-2668","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"146026760","charityName":"NATIONAL
+        SOCIETY OF THE DAUGHTERS OF THE AMERICAN REVOLUTION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/146026760","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/146026760","eligibleCd":1,"city":"PAWLING","state":"New
+        York","zipCode":"12564-0442","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"421480403","charityName":"CRESCENT-JANKO
+        MASONIC FOUNDATION","category":"Youth Development","url":"http:\/\/www.orghunter.com\/organization\/421480403","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/421480403","eligibleCd":1,"city":"TODDVILLE","state":"Iowa","zipCode":"52341-9645","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1352884,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:12 GMT
 recorded_with: VCR 3.0.3

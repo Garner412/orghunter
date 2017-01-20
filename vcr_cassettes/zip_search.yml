@@ -76,4 +76,74 @@ http_interactions:
         Related Activities","url":"http:\/\/www.orghunter.com\/organization\/462743063","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/462743063","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-2806","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1431,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 21:17:42 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?user_key=60b5c413389afd528034f03af0857824&zipCode=60606
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:45 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6ImZ2V3VZRXF5SWtWUGdmdEgxdUVGV2lkR3pCUlJMYlFUWmdVc1dcL3RWMUdjPSIsInZhbHVlIjoiUTFjUUpiOXRqWVNXNjVROElJVlwvNWxPR21kdDFTeDJsdEpFTTJZTnhSY1M0Yjg0NVhcL1I5TFpTQ2xWN244cm1wdWVpbVJzaFJrRmVTODhtUkFpKzlUQT09IiwibWFjIjoiN2E5YmRjY2I0NzQ0NjJlNzdhMDcyZGVjN2I5YTdmYjA3YWUxNzdlNmY5M2EwMmZkNzBmZGRiOWE5OWU3MzgzNiJ9;
+        expires=Fri, 20-Jan-2017 18:22:45 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"383876392","charityName":"ENTREVAN","category":"Human
+        Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/383876392","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/383876392","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3728","deductibilityCd":1,"statusCd":4,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"330537352","charityName":"SERRA
+        INTERNATIONAL","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/330537352","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/330537352","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-2218","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"452764445","charityName":"DINELLA
+        FOUNDATION","category":"Human Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/452764445","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/452764445","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-2806","deductibilityCd":1,"statusCd":4,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"367190582","charityName":"ROBERT
+        M LEVY AND DIANE V S LEVY FAMILY FOUNDATION","category":"Philanthropy, Voluntarism
+        and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/367190582","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/367190582","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-4319","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"581409476","charityName":"APPRAISAL
+        INSTITUTE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/581409476","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/581409476","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3515","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"362983183","charityName":"BUD
+        TARRSON FOUNDATION FOR DENTAL RESEARCH","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/362983183","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/362983183","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-7507","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"522436647","charityName":"ILLINOIS
+        EDUCATION ASSOCIATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/522436647","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/522436647","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-4904","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"364444705","charityName":"WEST
+        SUBURBAN INDUSTRIAL SDCO INC","category":"Mutual\/Membership Benefit Organizations,
+        Other","url":"http:\/\/www.orghunter.com\/organization\/364444705","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364444705","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-5808","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"237549268","charityName":"SERRA
+        INTERNATIONAL","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237549268","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237549268","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-2218","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"742955964","charityName":"FOUNDATION
+        OF THE AMERICAN SOCIETY OF RETINA SPECIALISTS INC","category":"International,
+        Foreign Affairs and National Security","url":"http:\/\/www.orghunter.com\/organization\/742955964","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/742955964","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3002","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"330965574","charityName":"OAKLAND
+        14TH OFFICE INC","category":"Community Improvement, Capacity Building","url":"http:\/\/www.orghunter.com\/organization\/330965574","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/330965574","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-5808","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"363591377","charityName":"PEER
+        ASSISTANCE NETWORK FOR NURSES","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363591377","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363591377","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-0000","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"311804118","charityName":"HERBERT
+        K AND ELIZABETH M ANSPACH FAMILY FOUNDATION","category":"Philanthropy, Voluntarism
+        and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/311804118","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/311804118","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3910","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"363866528","charityName":"THE
+        ADJUVANT FOUNDATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363866528","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363866528","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-1899","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"363880323","charityName":"DONALD
+        M AND HELEN H KIDDER FAMILY FOUNDATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363880323","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363880323","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3908","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"363232190","charityName":"BETHUNE
+        COOKMAN COLLEGE EMPLOYEES MEDICAN PLAN & TRUST","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363232190","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363232190","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-5860","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"300286949","charityName":"STAIRWAY
+        FUND","category":"Philanthropy, Voluntarism and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/300286949","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/300286949","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-1899","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"364471558","charityName":"KICKAPOO
+        MUD CREEK NATURE CONSERVANCY","category":"Environmental Quality, Protection
+        and Beautification","url":"http:\/\/www.orghunter.com\/organization\/364471558","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364471558","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-6758","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"527240193","charityName":"MAURICE
+        & DOROTHY BUCKSBUAM FAM FOUNDATION TR","category":"Philanthropy, Voluntarism
+        and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/527240193","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/527240193","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60606-3532","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"363552618","charityName":"NATIONAL
+        BLACK DATA PROCESSING ASSOCIATES INC","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363552618","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363552618","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60606-5829","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":1436,"score":1,"website":"","missionStatement":"","acceptingDonations":0}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:12 GMT
 recorded_with: VCR 3.0.3

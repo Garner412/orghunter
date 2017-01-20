@@ -72,4 +72,69 @@ http_interactions:
         MISSION TRAINING INSTITUTE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/364090028","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364090028","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60630-2513","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26333,"score":1,"website":"","missionStatement":"","acceptingDonations":0}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 21:17:42 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?city=Chicago&user_key=60b5c413389afd528034f03af0857824
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:44 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6ImtiY3ViXC9FNENxc0FmT09acHNNd3hNNUJCTEs2amYraUJsejg4YUZQSE1zPSIsInZhbHVlIjoiTVNvdGpuWWN1YXRNeU9vUnFwYW95clVKUDFIQ2xlQ3FGS0lyaGxOTlljNDJ6MjNXN1wvbU00eE9hZTcwWU1xYmJuTWpTb0FDS2lrREExcWZyUmZPRlpnPT0iLCJtYWMiOiJlYTMwODZiNTJjZTk3ZjkzYmY5NjEyZGY3ODA1ODgyNjM1OGU1ZDNmYmIwZjdjOWNjYjZhMjM0OTJjN2E1MjFmIn0%3D;
+        expires=Fri, 20-Jan-2017 18:22:44 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"300087875","charityName":"CARE
+        BUS INC","category":"Human Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/300087875","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/300087875","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60652-2033","deductibilityCd":1,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"364434844","charityName":"CANAAN
+        COMMUNITY REDEVELOPMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/364434844","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364434844","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60636-1220","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"271647224","charityName":"ATHLETES
+        HELPING ATHLETES","category":"Youth Development","url":"http:\/\/www.orghunter.com\/organization\/271647224","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/271647224","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60607-1615","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"260575383","charityName":"CHICAGO
+        SHAOLIN TEMPLE INC","category":"Religion-Related, Spiritual Development","url":"http:\/\/www.orghunter.com\/organization\/260575383","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/260575383","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60608-5520","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"363963593","charityName":"CARING
+        RESPONSIBILTIY IMPROVEMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363963593","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363963593","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60612-4229","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"363329630","charityName":"NATIONAL
+        ALLIANCE FOR HANDGUN","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363329630","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363329630","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60602-1604","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"900343759","charityName":"DEPRESSION
+        AND BIPOLAR SUPPORT ALLIANCE","category":"Mental Health, Crisis Intervention","url":"http:\/\/www.orghunter.com\/organization\/900343759","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/900343759","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60654-3563","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237613094","charityName":"POLISH
+        NATIONAL ALLIANCE OF THE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237613094","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237613094","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60646-4304","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"233057617","charityName":"ASSOCIATION
+        OF PEDIATRIC ONCOLOGY NURSES","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/233057617","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/233057617","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60631-2738","deductibilityCd":1,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"362637756","charityName":"SUE
+        DUNCAN CHILDRENS CENTER INC","category":"Educational Institutions and Related
+        Activities","url":"http:\/\/www.orghunter.com\/organization\/362637756","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/362637756","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60653-3064","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"364060421","charityName":"HISTORIC
+        QUINN COMMUNITY","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/364060421","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364060421","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60616-2306","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"250772853","charityName":"POLISH
+        NATIONAL ALLIANCE OF THE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/250772853","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/250772853","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60646-4304","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"366159657","charityName":"MILITARY
+        ORDER OF THE WORLD WARS INC","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/366159657","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/366159657","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60632-1211","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"208239056","charityName":"TOTUS
+        TUUS FOUNDATION","category":"Housing, Shelter","url":"http:\/\/www.orghunter.com\/organization\/208239056","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/208239056","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60707-2244","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"232287950","charityName":"POLISH
+        ROMAN CATHOLIC UNION OF AMERICA","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/232287950","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/232287950","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60642-4101","deductibilityCd":0,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"364302912","charityName":"JUMP
+        RHYTHM JAZZ PROJECT","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/364302912","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364302912","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60657-4120","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237348229","charityName":"ESPERANTO
+        SOCIETY OF CHICAGO","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237348229","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237348229","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60607-4105","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"562437817","charityName":"MASJID
+        AL-FAROAQ NFP","category":"Religion-Related, Spiritual Development","url":"http:\/\/www.orghunter.com\/organization\/562437817","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/562437817","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60617-2813","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237069159","charityName":"RUTH
+        PAGE FOUNDATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237069159","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237069159","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60610-2804","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"203815396","charityName":"SPACE
+        MOVEMENT PROJECT","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/203815396","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/203815396","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60622-9225","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":26684,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:11 GMT
 recorded_with: VCR 3.0.3
