@@ -1,6 +1,6 @@
 require "spec_helper"
 
-  describe Orghunter::Geolocation do
+  describe Orghunter::Charity do
     args = {
       "ein" => "930748388",
       "name" => "COMMUNITY CANCER FOUNDATION COMMUNITY CANCER CENTER",
@@ -43,11 +43,7 @@ require "spec_helper"
       "latitude" => "43.240814",
       "longitude" => "-123.363449"}
 
-    let(:geolocation){Orghunter::Geolocation.new(args)}
-
-    it 'should exist' do
-      expect(geolocation).to be_kind_of(Orghunter::Geolocation)
-    end
+    let(:geolocation){Orghunter::Charity.new(args)}
 
     it 'has readable ein' do
       expect(geolocation.ein).to eq('930748388')
