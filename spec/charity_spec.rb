@@ -1,10 +1,10 @@
 require "spec_helper"
 
-describe Orghunter::Charity do 
+describe Orghunter::Charity do
   Orghunter.configure do |config|
     config.api_key = ENV['ORGHUNTER_API_KEY']
   end
-  
+
   args = {"ein" => "261688229",
     "charityName" => "KIDS COWS AND MORE INC",
     "category" => "Arts, Culture and Humanities",
@@ -73,7 +73,7 @@ describe Orghunter::Charity do
     expect(charity.search_score).to eq(13.815885)
   end
 
-  it "Has a website" do 
+  it "Has a website" do
     expect(charity.website).to eq("http://www.kidscowsandmore.org/")
   end
 
@@ -103,15 +103,15 @@ describe Orghunter::Charity do
             expect(basic_info.foundation).to eq("Organization which receives a substantial part of its support from a governmental unit or the general public   170(b)(1)(A)(vi)")
             expect(basic_info.organization).to eq("Corporation")
             expect(basic_info.exempt_status).to eq("Unconditional Exemption")
-            expect(basic_info.tax_period).to eq("December, 2014")
+            expect(basic_info.tax_period).to eq("December, 2015")
             expect(basic_info.asset_code_desc).to eq("500,000 to 999,999")
-            expect(basic_info.income_code_desc).to eq("10,000 to 24,999")
+            expect(basic_info.income_code_desc).to eq("1 to 9,999")
             expect(basic_info.filing_requirement_code_desc).to eq("Not required to file (income less than $25,000)")
             expect(basic_info.pf_filing_requirement_code_desc).to eq("No PF return")
             expect(basic_info.accounting_period).to eq("December")
-            expect(basic_info.asset_amount).to eq("570877.00")
-            expect(basic_info.income_amount).to eq("10874.00")
-            expect(basic_info.form990).to eq("10874.00")
+            expect(basic_info.asset_amount).to eq("566453.00")
+            expect(basic_info.income_amount).to eq("4524.00")
+            expect(basic_info.form990).to eq("4524.00")
             expect(basic_info.ntee_cd).to eq('A52')
             expect(basic_info.ntee_class).to eq("Children's Museums")
             expect(basic_info.ntee_type).to eq("Arts, Culture and Humanities")

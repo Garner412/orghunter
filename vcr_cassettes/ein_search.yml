@@ -49,4 +49,49 @@ http_interactions:
         COWS AND MORE INC","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/261688229","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/261688229","eligibleCd":1,"city":"HOUSTON","state":"Texas","zipCode":"77018-8305","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 21:10:31 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?ein=261688229&user_key=60b5c413389afd528034f03af0857824
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:44 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IjZTQTYzaU5pXC9OYXV6MHRDNHMxVjk3N0ZcL1dQNUxOa3Y4d1lwSTdJYXV3Yz0iLCJ2YWx1ZSI6IlVWOWF3MFM2K2xPM0ZCM3lXd1pEN2tSRmQzUXNOVk5yR2p2Y2JBdktuekEybjVZZ0t5TjVpMHdrVVd0UEdBZXFpT1ozRlJaOFU3N2lnbkhhZW5vbTlBPT0iLCJtYWMiOiI1ZmI3ZDVjZDM4OTE2NTdmNjYzZjAzZDQ0YTY1MWNiYzA4ZDYyYzRkZTE5YWQ4MDhlNTU1Y2NiYjA0MWM2NWNlIn0%3D;
+        expires=Fri, 20-Jan-2017 18:22:44 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"261688229","charityName":"KIDS
+        COWS AND MORE INC","category":"Arts, Culture and Humanities","url":"http:\/\/www.orghunter.com\/organization\/261688229","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/261688229","eligibleCd":1,"city":"HOUSTON","state":"Texas","zipCode":"77018-8305","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":1,"score":1,"website":"","missionStatement":"","acceptingDonations":1}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:11 GMT
 recorded_with: VCR 3.0.3

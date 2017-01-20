@@ -77,4 +77,74 @@ http_interactions:
         WIGGEN TRUST FBO 20196164","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/66340109","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/66340109","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60603-2300","deductibilityCd":0,"statusCd":0,"start":0,"rows":20,"recordCount":93878,"score":1,"website":"","missionStatement":"","acceptingDonations":0}]}'
     http_version: 
   recorded_at: Thu, 03 Nov 2016 21:17:42 GMT
+- request:
+    method: get
+    uri: http://data.orghunter.com/v1/charitysearch?state=IL&user_key=60b5c413389afd528034f03af0857824
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - data.orghunter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Jan 2017 16:22:44 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Powered-By:
+      - PHP/5.4.45
+      Cache-Control:
+      - no-cache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - laravel_session=eyJpdiI6IldJOEhIYTcwY2hEVnZHNUhGd0hrVHFwSDZpWnpTZzVLaThiY0JhdEdwY2M9IiwidmFsdWUiOiJiNG51SDUyMDR3ME1NTUpwa1lNbWpIVXBycXd6QTI1bEZEdkdrbFMzdUF1U0lITEI3cU1FZG1kbTlNRFZxbE9cL3E0T1I3YWIzdDE0N3BQUDByT1NQWEE9PSIsIm1hYyI6IjExMDgxY2ExNWJiOTU4NjIxZDJiZjE3YzA5ZTM2ZWI3Nzg4MGNiMmEyN2NjZWYwNTVkOGUzMjM5Y2E2NGE4YmUifQ%3D%3D;
+        expires=Fri, 20-Jan-2017 18:22:44 GMT; path=/; httponly
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"code":"200","msg":"OK, all went through!","data":[{"ein":"810615295","charityName":"AURORA
+        FIRE DEPARTMENT EXPLORER POST 99","category":"Public Safety, Disaster Preparedness
+        and Relief","url":"http:\/\/www.orghunter.com\/organization\/810615295","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/810615295","eligibleCd":1,"city":"AURORA","state":"Illinois","zipCode":"60505-3328","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"300087875","charityName":"CARE
+        BUS INC","category":"Human Services - Multipurpose and Other","url":"http:\/\/www.orghunter.com\/organization\/300087875","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/300087875","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60652-2033","deductibilityCd":1,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"364434844","charityName":"CANAAN
+        COMMUNITY REDEVELOPMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/364434844","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/364434844","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60636-1220","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"203115678","charityName":"WALK
+        ON","category":"Health - General and Rehabilitative","url":"http:\/\/www.orghunter.com\/organization\/203115678","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/203115678","eligibleCd":1,"city":"BARRINGTON","state":"Illinois","zipCode":"60010-2368","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"271647224","charityName":"ATHLETES
+        HELPING ATHLETES","category":"Youth Development","url":"http:\/\/www.orghunter.com\/organization\/271647224","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/271647224","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60607-1615","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"454489032","charityName":"ROCK
+        RIVER VALLEY ROTARY FOUNDATION INC","category":"Philanthropy, Voluntarism
+        and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/454489032","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/454489032","eligibleCd":1,"city":"BYRON","state":"Illinois","zipCode":"61010-0431","deductibilityCd":1,"statusCd":5,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"272944132","charityName":"BIG
+        HEARTS FUND","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/272944132","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/272944132","eligibleCd":1,"city":"NEW
+        LENOX","state":"Illinois","zipCode":"60451-3063","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"263420985","charityName":"PROJECT
+        U S","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/263420985","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/263420985","eligibleCd":0,"city":"BELLEVILLE","state":"Illinois","zipCode":"62222-8000","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"260575383","charityName":"CHICAGO
+        SHAOLIN TEMPLE INC","category":"Religion-Related, Spiritual Development","url":"http:\/\/www.orghunter.com\/organization\/260575383","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/260575383","eligibleCd":1,"city":"CHICAGO","state":"Illinois","zipCode":"60608-5520","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"371361060","charityName":"ILLINOIS
+        LEAGUE OF ADVOCATES FOR THE DEVELOPMENTALLY DISABLED INC","category":"Philanthropy,
+        Voluntarism and Grantmaking Foundations","url":"http:\/\/www.orghunter.com\/organization\/371361060","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/371361060","eligibleCd":1,"city":"RIVER
+        GROVE","state":"Illinois","zipCode":"60171-1636","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"383865539","charityName":"PETERSBURG
+        JUNIOR FOOTBALL","category":"International, Foreign Affairs and National Security","url":"http:\/\/www.orghunter.com\/organization\/383865539","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/383865539","eligibleCd":1,"city":"PETERSBURG","state":"Illinois","zipCode":"62675-0192","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"371214413","charityName":"INTERNATIONAL
+        ASSOCIATION OF LIONS CLUBS","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/371214413","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/371214413","eligibleCd":0,"city":"VERSAILLES","state":"Illinois","zipCode":"62378-0242","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"362648724","charityName":"SPRINGFIELD
+        FLYING CLUB","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/362648724","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/362648724","eligibleCd":0,"city":"SPRINGFIELD","state":"Illinois","zipCode":"62705-1971","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"363963593","charityName":"CARING
+        RESPONSIBILTIY IMPROVEMENT","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363963593","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363963593","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60612-4229","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"371269243","charityName":"ILLINOIS
+        EDUCATION ASSOCIATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/371269243","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/371269243","eligibleCd":0,"city":"EDWARDSVILLE","state":"Illinois","zipCode":"62025-4703","deductibilityCd":2,"statusCd":0,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"363329630","charityName":"NATIONAL
+        ALLIANCE FOR HANDGUN","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363329630","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363329630","eligibleCd":0,"city":"CHICAGO","state":"Illinois","zipCode":"60602-1604","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0},{"ein":"363083197","charityName":"ELMHURST
+        MEMORIAL HEALTHCARE","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/363083197","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/363083197","eligibleCd":1,"city":"ELMHURST","state":"Illinois","zipCode":"60126-5658","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"371047728","charityName":"BENLD
+        VOLUNTEER FIRE AND RESCUE ASSOCIATION","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/371047728","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/371047728","eligibleCd":1,"city":"BENLD","state":"Illinois","zipCode":"62009-1516","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"237112399","charityName":"FIRST
+        CHRISTIAN CHURCH","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/237112399","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/237112399","eligibleCd":1,"city":"BETHALTO","state":"Illinois","zipCode":"62010-0000","deductibilityCd":1,"statusCd":1,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":1},{"ein":"311583153","charityName":"DES
+        PLAINES GIRLS SOFTBALL","category":"Not Provided","url":"http:\/\/www.orghunter.com\/organization\/311583153","donationUrl":"http:\/\/donate.makemydonation.org\/donate\/311583153","eligibleCd":0,"city":"DES
+        PLAINES","state":"Illinois","zipCode":"60016-3128","deductibilityCd":0,"statusCd":4,"start":0,"rows":20,"recordCount":94747,"score":1,"website":"","missionStatement":"","acceptingDonations":0}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 16:44:11 GMT
 recorded_with: VCR 3.0.3
