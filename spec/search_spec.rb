@@ -8,14 +8,14 @@ describe Orghunter::Search do
   VCR.use_cassette('cow_search') do
 
     term_search = Orghunter::Search.new( {search_term: 'cows',rows: 22, start: 1} )
-    
+
     it "Has an array of charities" do
       expect(term_search.results).to be_kind_of(Array)
       expect(term_search.results).to_not be_empty
       term_search.results.each{|charity| expect(charity).to be_kind_of(Orghunter::Charity)}
     end
     it "Has a count of the results" do
-      expect(term_search.count).to eq(85)
+      expect(term_search.count).to eq(84)
     end
 
     it "Has a record start position" do
@@ -31,7 +31,7 @@ describe Orghunter::Search do
     end
   end
 
-  describe "When searching by EIN" do 
+  describe "When searching by EIN" do
     VCR.use_cassette('ein_search') do
       ein_search = Orghunter::Search.new({ein: 261688229})
 

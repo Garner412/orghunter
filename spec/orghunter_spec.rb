@@ -45,7 +45,7 @@ describe Orghunter do
           expect(charity_info.in_care_of).to eq("MARK HALL")
           expect(charity_info.city).to eq('HOUSTON')
           expect(charity_info.filing_requirement_code_desc).to eq("Not required to file (income less than $25,000)")
-        end 
+        end
 
       end
     end
