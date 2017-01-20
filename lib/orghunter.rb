@@ -3,7 +3,8 @@ require 'orghunter/configuration'
 require 'orghunter/charity'
 require 'orghunter/search'
 require 'orghunter/category'
-require 'orghunter/geolocation'
+
+
 
 module Orghunter
   class << self
@@ -43,5 +44,14 @@ module Orghunter
     end
   end
 
+  def self.geolocation_info(ein)
+    uri = "http://data.orghunter.com/v1/charitygeolocation?user_key=#{Orghunter.configuration.api_key}&ein=#{ein}"
+    geolocation_hash = self.data_from_query(uri)
+    if geolocation_hash
+      return Geolocation.new(geolocation_hash)
+    else
+      return "No results for ein: #{ein}"
+    end
+  end
 
 end
